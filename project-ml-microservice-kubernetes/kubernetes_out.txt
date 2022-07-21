@@ -1,0 +1,12 @@
+Docker ID and Image: manueldominic/udacity-devops-app:1.0
+deployment.apps/udacity-devops-minikube created
+NAMESPACE     NAME                                      READY   STATUS              RESTARTS   AGE
+default       udacity-devops-minikube-6b7dfbb5f-h6d9n   0/1     ContainerCreating   0          0s
+kube-system   coredns-6d4b75cb6d-ckttf                  1/1     Running             0          30s
+kube-system   etcd-minikube                             1/1     Running             0          42s
+kube-system   kube-apiserver-minikube                   1/1     Running             0          42s
+kube-system   kube-controller-manager-minikube          1/1     Running             0          42s
+kube-system   kube-proxy-b2vcd                          1/1     Running             0          31s
+kube-system   kube-scheduler-minikube                   1/1     Running             0          42s
+kube-system   storage-provisioner                       1/1     Running             0          39s
+service/udacity-devops-minikube exposed
