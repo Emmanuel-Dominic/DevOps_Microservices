@@ -10,8 +10,9 @@ dockerpath=manueldominic/udacity-devops-app:1.0
 # Step 2:
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login
+docker image tag udacity-devops-app:1.0 manueldominic/udacity-devops-app:1.0
 
 # Step 3:
 # Push image to a docker repository
-docker image tag udacity-devops-app:1.0 manueldominic/udacity-devops-app:1.0
 docker image push manueldominic/udacity-devops-app:1.0
