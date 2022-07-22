@@ -4,6 +4,8 @@
 
 This is a Machine Learning Microservice API project with a pre-trained `sklearn` model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on.
 
+- Some of the screenshots are listed in the files folder.
+
 ## Setup Project Environment
 
 * Clone the ptoject repo.
