@@ -41,3 +41,9 @@ jobs:
           command: |
             hadolint --ignore DL3013 --ignore SC1091 project-ml-microservice-kubernetes/Dockerfile
             pylint --disable=R,C,W1203,W1202 project-ml-microservice-kubernetes/app.py
+
+      # run tests!
+      - run:
+          name: run tests
+          command: |
+            pytest -vv project-ml-microservice-kubernetes/test_app.py
